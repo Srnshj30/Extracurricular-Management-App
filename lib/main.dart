@@ -13,8 +13,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/', // Set the initial route to '/'
       routes: {
-        '/': (context) => const LoginScreen(), // Set the LoginScreen as the initial route
-        '/signup': (context) => const SignupPage(),// Add a route for the SignupScreen
+        '/': (context) =>
+            const LoginScreen(), // Set the LoginScreen as the initial route
+        '/signup': (context) =>
+            const SignupPage(), // Add a route for the SignupScreen
       },
     );
   }
